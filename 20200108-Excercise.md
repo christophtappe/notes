@@ -13,10 +13,13 @@ Innerhalb des *main*-Elements kommen die Hauptbestandteile bzw. inhaltlich wicht
 Bei Verwendung von *strong* oder auch *em* geht es nicht allein um die optische Darstellung – in diesem Fall *Fettdruck* und *Kursivschreibung*, sondern auch um die semantische Hervorhebung. *b* und *i* hingegen sind lediglich für die optische Gestaltung vorgesehen.
 
 ### Wie baut man eine figure mit einem Bild und Text auf?
+```
 <figure>
 <img src="image.img" alt="Fotobeschreibung">
 <figcaption>Ergänzender Text für das Bild</figcaption>
 <figure>
+```
+
 
 ### Wofür steht dl, dd und dt
 Das Element *dl* steht für Description list. Man verwendet es z.B. für ein Glossar oder die Darstellung von Metadaten. *dd* steht für die Beschreibung eines Begriffes innerhalb der Description list. *dt* steht für Definition Term und zeigt einen Begriff in der Liste. Ihm kann ein *dd* folgen.
